@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px;
+    line-height: 30px;
+    font-family: arial;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+input, button {
+    width: 200px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    background: #ffc108;
+    text-transform: uppercase;
+}
+
+tbody {
+    background: #392b6f;
+    color: rgba(255, 255, 255, 0.858);
+}
+
+th,td {
+    border: 1px solid #e8ae31;
+    width: 202px;
+    padding: 15px;
+}
+
+thead th:nth-of-type(2){
+    background: #e8ae31;
+}
+
